@@ -1,5 +1,5 @@
 # LogObjects
-Simple library to log object, nested objects, arraylist objects etc.
+Simple library to log object, nested objects and arraylist objects.
 
 ## To get log object library into your project:
 
@@ -16,4 +16,11 @@ Step 2. Add the dependency
 
 ### dependencies {
 	        implementation 'com.github.crazyvibes:LogObjects:Tag'
+	}
+
+Step 3. Call logObject method with params context and object
+
+### 
+	{
+	LogObjects.logObject(AddCropsActivity.this,itemsList);
 	}
