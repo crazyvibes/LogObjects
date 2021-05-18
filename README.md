@@ -15,7 +15,7 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 
 ### dependencies {
-	        implementation 'com.github.crazyvibes:LogObjects:Tag'
+	        implementation 'com.github.crazyvibes:LogObjects:1.0.0'
 	}
 
 Step 3. Call logObject method with params context and object
