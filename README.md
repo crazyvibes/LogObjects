@@ -22,5 +22,5 @@ Step 3. Call logObject method with params context and object
 
 ### 
 	{
-	LogObjects.logObject(AddCropsActivity.this,itemsList);
+		LogObjects.logObject(AddCropsActivity.this,itemsList);
 	}
