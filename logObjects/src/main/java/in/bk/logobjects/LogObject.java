@@ -12,6 +12,6 @@ public class LogObject {
     public static void logObject(Context mContext, Object object) {
         Gson gson = new Gson();
         String json = gson.toJson(object);
-        Log.d(TAG, json);
+        Log.d("Object log: ", json);
     }
 }
